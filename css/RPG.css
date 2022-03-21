@@ -9,7 +9,7 @@
 	}
 .panel2 {
 	z-index: 1;
-	position: absolute;
+	position: relative;
 	}
 .panel-latent {
 	visibility: hidden;

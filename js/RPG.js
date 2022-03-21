@@ -122,7 +122,7 @@ $(document).ready(function(){
 
 $("#choriki").click(function(){ 
 	$("#pickedchoriki").addClass("panel-active"); 
-	$("#pickedpchoriki").removeClass("panel-latent");
+	$("#pickedchoriki").removeClass("panel-latent");
 	  
 	$(this).addClass("button-latent");
 	$(this).removeClass("button-active");

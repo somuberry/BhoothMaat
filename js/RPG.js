@@ -35,7 +35,7 @@ $(document).ready(function(){
 
 	$("#problemkya").addClass("button-active");
 	$("#problemkya").removeClass("button-latent");
-	$("sahi").addClass("button-active");
+	$("#sahi").addClass("button-active");
 	$("#sahi").removeClass("button-latent");
 	});
 	

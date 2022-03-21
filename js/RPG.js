@@ -79,6 +79,21 @@ $(document).ready(function(){
 	$("#confront").addClass("button-active");
 	$("#confront").removeClass("button-latent"); 
 	});	
+
+ $("#jichai2").click(function(){ 
+	$("#progjichai").addClass("panel-active"); 
+	$("#progjichai").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#jichai1").addClass("button-latent");
+	$("#jichai1").removeClass("button-active");
+	  
+	$("#family1").addClass("button-active");
+	$("#family1").removeClass("button-latent"); 
+	$("#confront").addClass("button-active");
+	$("#confront").removeClass("button-latent"); 
+	});	
 });
 
 

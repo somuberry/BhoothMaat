@@ -24,35 +24,45 @@ $(document).ready(function(){
 	$("#traveltoA1").addClass("button-active");
 	$("#traveltoA1").removeClass("button-latent");
 	});
-	
-  $("#revivehim").click(function(){ 
-	$("#revivedhim").addClass("panel-active");
-	$("#revivedhim").removeClass("panel-latent");
+
+// hindi
+  $("#wohmain").click(function(){ 
+	$("#progwohmain").addClass("panel-active");
+	$("#progwohmain").removeClass("panel-latent");
 	  
 	$(this).addClass("button-latent");
 	$(this).removeClass("button-active");
-	$("#payfamily").addClass("button-latent");
-	$("#payfamily").removeClass("button-active");
+
+	$("#problemkya").addClass("button-active");
+	$("#problemkya").removeClass("button-latent");
+	$("sahi").addClass("button-active");
+	$("#sahi").removeClass("button-latent");
 	});
 	
-  $("#payfamily").click(function(){ 
-	$("#paidfamily").addClass("panel-active"); 
-	$("#paidfamily").removeClass("panel-latent");
+  $("#problemkya").click(function(){ 
+	$("#pickedproblemkya").addClass("panel-active"); 
+	$("#pickedproblemkya").removeClass("panel-latent");
 	  
 	$(this).addClass("button-latent");
 	$(this).removeClass("button-active");
-	$("#revivehim").addClass("button-latent");
-	$("#revivehim").removeClass("button-active");
+	$("#sahi").addClass("button-latent");
+	$("#sahi").removeClass("button-active");
+	  
+	$("#traveltowada").addClass("button-active");
+	$("#traveltowada").removeClass("button-latent");
 	});	
 		
-  $("#acceptgoods").click(function(){ 
-	$("#acceptedgoods").addClass("panel-active");
-	$("#acceptedgoods").removeClass("panel-latent");
+  $("#sahi").click(function(){ 
+	$("#pickedsahi").addClass("panel-active");
+	$("#pickedsahi").removeClass("panel-latent");
 	  
 	$(this).addClass("button-latent");
 	$(this).removeClass("button-active");
-	$("#imallergic").addClass("button-latent");
-	$("#imallergic").removeClass("button-active");
+	$("#problemkya").addClass("button-latent");
+	$("#problemkya").removeClass("button-active");
+	  
+	$("#traveltowada").addClass("button-active");
+	$("#traveltowada").removeClass("button-latent");
 	});
 	
   $("#imallergic").click(function(){ 
@@ -65,3 +75,6 @@ $(document).ready(function(){
 	$("#acceptgoods").removeClass("button-active");
 	});	
 });
+
+//english
+

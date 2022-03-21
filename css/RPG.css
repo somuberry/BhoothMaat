@@ -1,6 +1,3 @@
-.body {
-background-color: #fff4e1;
-}
 
 .button {
   font-family: blambot-fx-pro, sans-serif;
@@ -13,6 +10,7 @@ background-color: #fff4e1;
   display: grid;
   align-items: center;
   grid-template-columns: 1fr;
+  background-color: #fff4e1;
 }
 .panel1 {
 	z-index: 0;

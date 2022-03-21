@@ -5,11 +5,11 @@
 }
 .panel1 {
 	z-index: 0;
-	position: relative;
+	position: absolute;
 	}
 .panel2 {
 	z-index: 1;
-	position: relative;
+	position: absolute;
 	}
 .panel-latent {
 	visibility: hidden;
@@ -36,4 +36,7 @@
 .div3 {
 	position: relative;
 	z-index: 1;
+	}
+.selectiondiv {
+	position: relative;
 	}

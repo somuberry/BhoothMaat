@@ -5,11 +5,11 @@
 }
 .panel1 {
 	z-index: 0;
-	position: absolute;
+	position: relative;
 	}
 .panel2 {
 	z-index: 1;
-	position: relative;
+	position: absolute;
 	}
 .panel-latent {
 	visibility: hidden;

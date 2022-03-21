@@ -8,8 +8,8 @@ $(document).ready(function(){
 	$("#english").addClass("button-latent");
 	$("#english").removeClass("button-active");
 	  
-	$("#traveltoA1").addClass("button-active");
-	$("#traveltoA1").removeClass("button-latent");
+	$("#hintraveltoA1").addClass("button-active");
+	$("#hintraveltoA1").removeClass("button-latent");
 	});
 	
   $("#english").click(function(){ 
@@ -21,8 +21,8 @@ $(document).ready(function(){
 	$("#hindi").addClass("button-latent");
 	$("#hindi").removeClass("button-active");
 	  
-	$("#traveltoA1").addClass("button-active");
-	$("#traveltoA1").removeClass("button-latent");
+	$("#engtraveltoA1").addClass("button-active");
+	$("#engtraveltoA1").removeClass("button-latent");
 	});
 
 // hindi

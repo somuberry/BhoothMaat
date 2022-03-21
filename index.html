@@ -1,1 +1,161 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title>BhoothMaat</title>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/RPG.js"></script>
+<link href="css/RPG.css" rel="stylesheet">
+<!--<script>
+$(document).ready(function(){
+  $("#killhim").click(function(){ 
+	$("#killedhim").addClass("panel-active");
+	$("#killedhim").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#sparehim").addClass("button-latent");
+	$("#sparehim").removeClass("button-active");
+	  
+	$("#revivehim").addClass("button-active");
+	$("#revivehim").removeClass("button-latent");
+	$("#payfamily").addClass("button-active");
+	$("#payfamily").removeClass("button-latent");
+	});
+	
+  $("#sparehim").click(function(){ 
+	$("#sparedhim").addClass("panel-active"); 
+	$("#sparedhim").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#killhim").addClass("button-latent");
+	$("#killhim").removeClass("button-active");
+	  
+	$("#acceptgoods").addClass("button-active");
+	$("#acceptgoods").removeClass("button-latent");
+	$("#imallergic").addClass("button-active");
+	$("#imallergic").removeClass("button-latent");
+	});
+	
+  $("#revivehim").click(function(){ 
+	$("#revivedhim").addClass("panel-active");
+	$("#revivedhim").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#payfamily").addClass("button-latent");
+	$("#payfamily").removeClass("button-active");
+	});
+	
+  $("#payfamily").click(function(){ 
+	$("#paidfamily").addClass("panel-active"); 
+	$("#paidfamily").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#revivehim").addClass("button-latent");
+	$("#revivehim").removeClass("button-active");
+	});	
+		
+  $("#acceptgoods").click(function(){ 
+	$("#acceptedgoods").addClass("panel-active");
+	$("#acceptedgoods").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#imallergic").addClass("button-latent");
+	$("#imallergic").removeClass("button-active");
+	});
+	
+  $("#imallergic").click(function(){ 
+	$("#areallergic").addClass("panel-active"); 
+	$("#areallergic").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#acceptgoods").addClass("button-latent");
+	$("#acceptgoods").removeClass("button-active");
+	});	
+});
+</script>-->
+<!--<style>
+.panel1 {
+	z-index: 0;
+	position: absolute;
+	}
+.panel2 {
+	z-index: 1;
+	position: relative;
+	}
+.panel-latent {
+	visibility: hidden;
+	}
+.panel-active{
+	visibility: visible;
+	}	
+.img {
+	max-width: 800px;
+	}
+.button-latent {
+	visibility: hidden;
+	}
+.button-active {
+	visibility: visible;
+	z-index: 2;
+	}
+.div1 {
+	}
+.div2 {
+	position: absolute;
+	z-index: 0;
+	}
+.div3 {
+	position: relative;
+	z-index: 1;
+	}
+</style>-->
+</head>
+<body>
+<div class="container">
+  <img src="common/pg1-1.png">
+  <button id="hindi" class="button-active">Ji, Hindi chalegi</button>
+  <button id="english" class="button-active">English, please</button> 
+  <div id="pickedhindi" class="panel-latent panel1">
+  <img class="img" src="hindi/pg1-2.png"></div>
+<div id="pickedenglish" class="panel-latent panel2">
+	<img class="img" src="english/pg1-2.png"></div>
+</div>
+  
+<button href="peg2.html" id="traveltoA1" class="button-latent">Travel to A1 sandwich center</button>
+  
+<!--<div class="div1">
+<button id="killhim" class="button-active">Kill Him</button>
+<button id="sparehim" class="button-active">Spare Him</button>
+<div id="killedhim" class="panel-latent panel1">
+	<img class="img" src="deadman.jpg"></div>
+<div id="sparedhim" class="panel-latent panel2">
+	<img class="img" src="livingman.jpg"></div>
+</div>	
+
+<button id="revivehim" class="button-latent">Resurrect Him</button>
+<button id="payfamily" class="button-latent">Pay His Family</button>
+	
+<div class="div2">
+<div id="revivedhim" class="panel-latent panel1">
+	<img class="img" src="deadman2.jpg"></div>
+<div id="paidfamily" class="panel-latent panel2">
+	<img class="img" src="family.jpg"></div>
+</div>
+
+<button id="acceptgoods" class="button-latent">[Accept Basket]</button>
+<button id="imallergic" class="button-latent">I'm allergic to yeast</button>
+	
+<div class="div3">
+<div id="acceptedgoods" class="panel-latent panel1">
+	<img class="img" src="basket.jpg"></div>
+<div id="areallergic" class="panel-latent panel2">
+	<img class="img" src="goat.jpg"></div>	
+</div>-->
+	
+</body>
+</html>

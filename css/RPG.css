@@ -36,9 +36,14 @@
     	border: transparent;
     	cursor: pointer;
 	}
+
+.button-active:hover {
+	color: #8c0017;
+	}
+
 a {
 	margin: auto;
-}
+	}
 .div1 {
 	}
 .div2 {

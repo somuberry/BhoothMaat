@@ -94,6 +94,111 @@ $(document).ready(function(){
 	$("#confront").addClass("button-active");
 	$("#confront").removeClass("button-latent"); 
 	});	
+	
+	
+ $("#namaste").click(function(){ 
+	$("#prognamaste").addClass("panel-active");
+	$("#prognamaste").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+
+	$("#aapkibeti").addClass("button-active");
+	$("#aapkibeti").removeClass("button-latent");
+	});
+	
+ $("#aapkibeti").click(function(){ 
+	$("#progaapkibeti").addClass("panel-active");
+	$("#progaapkibeti").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+
+	$("#choriki").addClass("button-active");
+	$("#choriki").removeClass("button-latent");
+	$("samaybeeta").addClass("button-active");
+	$("#samaybeeta").removeClass("button-latent");
+	});
+
+$("#choriki").click(function(){ 
+	$("#pickedchoriki").addClass("panel-active"); 
+	$("#pickedpchoriki").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#samaybeeta").addClass("button-latent");
+	$("#samaybeeta").removeClass("button-active");
+	  
+	$("#sahinahi").addClass("button-active");
+	$("#sahinahi").removeClass("button-latent");
+	$("#dekhtahun").addClass("button-active");
+	$("#dekhtahun").removeClass("button-latent");
+	$("#shaitannahi").addClass("button-active");
+	$("#shaitannahi").removeClass("button-latent");
+	});
+
+$("#samaybeeta").click(function(){ 
+	$("#pickedsamaybeeta").addClass("panel-active"); 
+	$("#pickedsamaybeeta").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#choriki").addClass("button-latent");
+	$("#choriki").removeClass("button-active");
+	  
+	$("#sahinahi").addClass("button-active");
+	$("#sahinahi").removeClass("button-latent");
+	$("#dekhtahun").addClass("button-active");
+	$("#dekhtahun").removeClass("button-latent");
+	$("#shaitannahi").addClass("button-active");
+	$("#shaitannahi").removeClass("button-latent");
+	});	
+
+ $("#sahinahi").click(function(){ 
+	$("#pickedsahinahi").addClass("panel-active");
+	$("#pickedsahinahi").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#dekhtahun").addClass("button-latent");
+	$("#dekhtahun").removeClass("button-active");
+	$("#shaitannahi").addClass("button-latent");
+	$("#shaitannahi").removeClass("button-active");
+	  
+	$("#family2").addClass("button-active");
+	$("#family2").removeClass("button-latent");
+	});
+	
+ $("#dekhtahun").click(function(){ 
+	$("#pickeddekhtahun").addClass("panel-active");
+	$("#pickeddekhtahun").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#sahinahi").addClass("button-latent");
+	$("#sahinahi").removeClass("button-active");
+	$("#shaitannahi").addClass("button-latent");
+	$("#shaitannahi").removeClass("button-active");
+	  
+	$("#family3").addClass("button-active");
+	$("#family3").removeClass("button-latent");
+	});
+
+ $("#shaitannahi").click(function(){ 
+	$("#pickedshaitannahi").addClass("panel-active");
+	$("#pickedshaitannahi").removeClass("panel-latent");
+	  
+	$(this).addClass("button-latent");
+	$(this).removeClass("button-active");
+	$("#dekhtahun").addClass("button-latent");
+	$("#dekhtahun").removeClass("button-active");
+	$("#sahinahi").addClass("button-latent");
+	$("#sahinahi").removeClass("button-active");
+	  
+	$("#family4").addClass("button-active");
+	$("#family4").removeClass("button-latent");
+	});
+	
 });
 
 

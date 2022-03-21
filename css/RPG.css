@@ -18,7 +18,7 @@
 	visibility: visible;
 	}	
 .img {
-	max-width: 1fr;
+	max-width: 100%;
 	}
 .button-latent {
 	visibility: hidden;

@@ -1,0 +1,39 @@
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+}
+.panel1 {
+	z-index: 0;
+	position: absolute;
+	}
+.panel2 {
+	z-index: 1;
+	position: relative;
+	}
+.panel-latent {
+	visibility: hidden;
+	}
+.panel-active{
+	visibility: visible;
+	}	
+.img {
+	max-width: 1fr;
+	}
+.button-latent {
+	visibility: hidden;
+	}
+.button-active {
+	visibility: visible;
+	z-index: 2;
+	}
+.div1 {
+	}
+.div2 {
+	position: absolute;
+	z-index: 0;
+	}
+.div3 {
+	position: relative;
+	z-index: 1;
+	}

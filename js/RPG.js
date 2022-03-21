@@ -65,16 +65,21 @@ $(document).ready(function(){
 	$("#traveltowada").removeClass("button-latent");
 	});
 	
-  $("#imallergic").click(function(){ 
-	$("#areallergic").addClass("panel-active"); 
-	$("#areallergic").removeClass("panel-latent");
+  $("#jichai1").click(function(){ 
+	$("#progjichai").addClass("panel-active"); 
+	$("#progjichai").removeClass("panel-latent");
 	  
 	$(this).addClass("button-latent");
 	$(this).removeClass("button-active");
-	$("#acceptgoods").addClass("button-latent");
-	$("#acceptgoods").removeClass("button-active");
+	$("#jichai2").addClass("button-latent");
+	$("#jichai2").removeClass("button-active");
+	  
+	$("#family1").addClass("button-active");
+	$("#family1").removeClass("button-latent"); 
+	$("#confront").addClass("button-active");
+	$("#confront").removeClass("button-latent"); 
 	});	
 });
 
-//english
+
 

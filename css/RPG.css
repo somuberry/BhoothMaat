@@ -1,3 +1,6 @@
+.body {
+  background-color: #fff4e1;	
+}
 
 .container {
   display: grid;
@@ -5,6 +8,7 @@
   grid-template-columns: 1fr;
   background-color: #fff4e1;
 }
+
 .panel1 {
 	z-index: 0;
 	}

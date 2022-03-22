@@ -116,7 +116,7 @@ $(document).ready(function(){
 
 	$("#choriki").addClass("button-active");
 	$("#choriki").removeClass("button-latent");
-	$("samaybeeta").addClass("button-active");
+	$("#samaybeeta").addClass("button-active");
 	$("#samaybeeta").removeClass("button-latent");
 	});
 

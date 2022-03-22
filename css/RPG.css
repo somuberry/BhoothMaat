@@ -23,6 +23,7 @@
 	}
 .button-latent {
 	visibility: hidden;
+	height: 0px;
 	}
 .button-active {
 	visibility: visible;

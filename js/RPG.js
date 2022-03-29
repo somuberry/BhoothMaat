@@ -7,6 +7,8 @@ $(document).ready(function(){
 	$(this).removeClass("button-active");
 	$("#english").addClass("button-latent");
 	$("#english").removeClass("button-active");
+	$("#pickone").addClass("button-latent");
+	$("#pickone").removeClass("button-active");
 	  
 	$("#hintraveltoA1").addClass("button-active");
 	$("#hintraveltoA1").removeClass("button-latent");
@@ -20,6 +22,8 @@ $(document).ready(function(){
 	$(this).removeClass("button-active");
 	$("#hindi").addClass("button-latent");
 	$("#hindi").removeClass("button-active");
+	$("#pickone").addClass("button-latent");
+	$("#pickone").removeClass("button-active");
 	  
 	$("#engtraveltoA1").addClass("button-active");
 	$("#engtraveltoA1").removeClass("button-latent");

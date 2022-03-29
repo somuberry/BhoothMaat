@@ -43,6 +43,12 @@
 	text-decoration: none;
 	}
 
+.fakebutton {
+	color: #8c0017;
+	cursor: default;
+	pointer-events: none;
+	}
+
 .button-active:hover {
 	color: #8c0017;
 	}

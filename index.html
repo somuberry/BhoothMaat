@@ -7,7 +7,18 @@
 <link href="css/RPG.css" rel="stylesheet">
 <link rel="stylesheet" href="https://use.typekit.net/ycr7pbc.css">
 
+<script>
+var myVar;
 
+function myFunction() {
+  myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("container").style.display = "block";
+}
+</script>
 <!--<script>
 $(document).ready(function(){
   $("#killhim").click(function(){ 
@@ -118,8 +129,9 @@ $(document).ready(function(){
 	}
 </style>-->
 </head>
-<body class="body">
-<div class="container">
+<body class="body" onload="myFunction()" style="margin:0;">
+<div id="loader" class="container">loading</div>
+<div id="container" class="container">
   <img src="common/pg1-1.png" class="img">
   <button id="pickone" class="button-active fakebutton">(Pick an Option!)</button>
   <button id="hindi" class="button-active">- Ji, Hindi chalegi -</button>

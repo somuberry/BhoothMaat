@@ -74,10 +74,15 @@ p {
     	font-weight: 400;
     	font-style: normal;
     	font-size: 30px;
-    	color: #cf691b;
+    	color: #8c0017;
 	text-align: center;
 	}
 
+.heading {
+	font-family: blambot-fx-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 45px;
 .div1 {
 	}
 .div2 {

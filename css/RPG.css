@@ -78,6 +78,8 @@ p {
     	font-size: 30px;
     	color: #8c0017;
 	text-align: center;
+	margin: unset;
+	margin-bottom: 20px;
 	}
 
 .heading {

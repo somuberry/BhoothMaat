@@ -57,6 +57,18 @@
 a {
 	margin: auto;
 	}
+
+p {
+	visibility: visible;
+    	z-index: 2;
+    	font-family: blambot-fx-pro, sans-serif;
+    	font-weight: 400;
+    	font-style: normal;
+    	font-size: 30px;
+    	color: #cf691b;
+	text-align: center;
+	}
+
 .div1 {
 	}
 .div2 {

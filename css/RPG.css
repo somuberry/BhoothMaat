@@ -10,6 +10,15 @@
   padding-bottom: 20px;
 }
 
+.containerend {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr;
+  background-color: #fff4e1;
+  padding-bottom: 20px;
+  padding: 0.3rem;
+}
+
 .panel1 {
 	z-index: 0;
 	}
